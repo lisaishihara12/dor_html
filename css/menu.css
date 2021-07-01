@@ -1,0 +1,144 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+/* トップ */
+.top_top h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* メインメニュー*/
+.menu_item {
+    text-align: left;
+}
+
+
+/* footer */
+
+.footer-inner {
+    background-color: black;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-info h4 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.footer-wrapper {
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.footer-wrapper span {
+    color: #C59D5F;
+}
+
+
+.footer-info-icom ul {
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.footer-info-icom li {
+    display: inline-block;
+    width: 10%;
+
+}
+
+.fab {
+    color: #C59D5F;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-social h3 {
+
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 34px;
+}
+
+.footer-social ul {
+    font-weight: inherit;
+    margin-right: 20px;
+    color: white;
+
+}
+
+.footer-social li {
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer-info2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-info2 h4 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 40px;
+
+
+
+}
+
+input {
+    position: relative;
+    width: 70%;
+
+}
+
+.placeholder {
+    font-weight: 100;
+    color: black;
+}
+
+
+.far {
+    position: absolute;
+    top: 4457px;
+    right: 430px;
+    color: #C59D5F;
+}
+
+.last-icon {
+    color: white;
+    font-size: 5px;
+}
+
+.footer-contact li {
+    display: inline-block;
+
+}
+
+
+.footer-contact a {
+    color: #919191;
+    font-size: 16px;
+}
