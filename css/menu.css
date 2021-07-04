@@ -9,14 +9,36 @@ ul {
 
 /* トップ */
 .top_top h1 {
+    font-weight: bold;
+}
+
+.top_top h4 {
+    font-size: 34px;
     font-family: 'Kaushan Script', cursive;
+    color: #C59D5F;
 }
 
 /* メインメニュー*/
+
 .menu_item {
-    text-align: left;
+    margin: auto;
 }
 
+.menu_item2 {
+    float: right;
+}
+
+.bottom_line span {
+    border-bottom: 1px dotted black;
+}
+
+.menu_list h4 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.menu_list_price {
+    float: right;
+}
 
 /* footer */
 
