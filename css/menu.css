@@ -19,16 +19,24 @@ ul {
 }
 
 /* メインメニュー*/
+.menu_image {
+    width: 100px;
+    height: 100px;
+}
 
 .menu_item {
-    margin: auto;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.menu_item p {
+    font-family: serif;
 }
 
 .menu_item2 {
-    float: right;
+    display: inline-block;
 }
 
-.bottom_line span {
+.bottom_line {
     border-bottom: 1px dotted black;
 }
 
@@ -37,7 +45,7 @@ ul {
 }
 
 .menu_list_price {
-    float: right;
+    font-size: 1.5rem;
 }
 
 /* footer */
