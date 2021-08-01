@@ -7,7 +7,12 @@ ul {
     list-style: none;
 }
 
-/* カルーセル */
+/*------------------------ ナブバー */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* -----------------------カルーセル */
 .carousel-caption h1 {
     font-family: 'Kaushan Script', cursive;
     letter-spacing: 3px;
@@ -436,7 +441,7 @@ input {
 
 .far {
     position: absolute;
-    top: 4457px;
+    top: 4475px;
     right: 430px;
     color: #C59D5F;
 }
