@@ -9,6 +9,10 @@ ul {
 
 /*------------------------ ナブバー */
 .navbar-brand {
+    background: url(/img/dorlogo.png) no-repeat left center;
+    background-size: contain;
+    width: 150px;
+    height: 100px;
     font-size: 1.5rem;
 }
 
@@ -86,56 +90,27 @@ ul {
 }
 
 .work-time h3 {
-    color: #C59D5F;
+    color: white;
     font-family: 'Kaushan Script', cursive;
     font-size: 34px;
-    text-align: right;
+    text-align: center;
     margin-top: 50px;
-    margin-right: 70px;
+
 
 }
 
-.work-time2 h3 {
-    color: #C59D5F;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 34px;
-    text-align: left;
-    margin-top: 50px;
-    margin-left: 70px;
-
-}
 
 .hours {
-    text-align: right;
+    text-align: center;
     font-size: 44px;
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
     padding-bottom: 20px;
-    width: 800px;
 
 }
 
-.hours2 {
-    text-align: left;
-    font-size: 44px;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
-    margin-left: 140px;
 
-
-}
-
-.hours span {
-    display: block;
-
-}
-
-.hours2 span {
-    display: block;
-}
 
 .call {
     font-size: 40px;
