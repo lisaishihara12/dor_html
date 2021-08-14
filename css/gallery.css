@@ -1,15 +1,29 @@
 html,
 body {
     overflow-x: hidden;
+    background-color: black;
 }
 
-/* ---navver------*/
+
+
+/* ---naver------*/
 .navbar-brand {
     background: url(/img/dorlogo.png) no-repeat left center;
     background-size: contain;
     width: 150px;
     height: 100px;
     font-size: 1.5rem;
+}
+
+.fixed-bg {
+    min-height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg01 {
+    background-image: url(/img/mr.sakane.png);
 }
 
 /* -----------写真------*/
@@ -22,28 +36,19 @@ body {
 .gallery_title h2 {
     font-family: 'Gowun Batang', serif;
     color: white;
+    margin-top: 20px;
 }
 
 .wrap-gallery {
-    display: flex;
-    margin-left: 40px;
-
+    overflow: hidden;
 }
 
 .wrap-gallery img {
-    width: 200px;
-    height: 190px;
-    border-radius: 10px;
+
     transition: all 0.5s;
 
 }
 
 .wrap-gallery img:hover {
     transform: scale(1.2, 1.2);
-}
-
-.item_gallery {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 40px;
 }

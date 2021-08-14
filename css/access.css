@@ -1,12 +1,6 @@
 /* --------------------------ACCESS*/
 @media screen and (min-width: 767px) {}
 
-.access {
-    width: 1040px;
-    margin: 0 auto;
-    padding: 100px 0 145px;
-}
-
 .access_title {
     margin-bottom: 50px;
     text-align: center;
@@ -22,7 +16,7 @@
 
 .map {
     width: 600px;
-    float: left;
+    text-align: center;
 }
 
 .access_address_box1 {
@@ -44,12 +38,9 @@
     border: none;
 }
 
-.shop_item img {
+.shop_item {
     width: 350px;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 30PX;
-
+    height: 500px;
 }
 
 
