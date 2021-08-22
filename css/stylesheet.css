@@ -16,6 +16,17 @@ ul {
     font-size: 1.5rem;
 }
 
+.navbar {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+}
+
 /* -----------------------カルーセル */
 .carousel-caption h1 {
     font-family: 'Kaushan Script', cursive;
@@ -194,50 +205,19 @@ ul {
     margin-bottom: 20px;
 }
 
-/* シェフ　*/
+/* ----シェフ写真-----*/
+.chef-list span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+}
+
+/* シェフ下*/
 .fixed-background {
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
 }
 
-.chef-list {
-    margin: 50px 0 0 70px;
-    position: relative;
-}
-
-.team-more {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 18px;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    opacity: 0.5;
-
-}
-
-.chefname {
-    position: absolute;
-    top: 160px;
-    left: 40px;
-    font-family: 'Kaushan Script', cursive;
-    display: inline-block;
-    letter-spacing: 1px;
-}
-
-.chefinfo {
-    width: 150px;
-    display: inline-block;
-    font-size: 14px;
-    color: #C59D5F;
-    font-weight: bold;
-    position: absolute;
-    top: 180px;
-    right: 130px;
-    left: 10px;
-
-}
 
 /* シェフ下　*/
 .about-list {
