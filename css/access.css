@@ -18,7 +18,7 @@ body {
 
 /*------------------------写真*/
 .photo_men {
-    background-image: url(../img/chefback2.png);
+    background-image: url(../img/sakanetakafumi3.jpg);
     background-repeat: no-repeat;
     /* 画像の繰り返しを指定  */
     background-position: center center;
@@ -58,6 +58,10 @@ body {
     display: block;
     width: 30%;
     height: 0;
+}
+
+.items h4 {
+    font-size: 18px;
 }
 
 .items p {
