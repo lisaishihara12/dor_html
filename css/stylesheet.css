@@ -43,6 +43,7 @@ ul {
 .section-title {
     text-align: center;
     color: #C59D5F;
+    padding-top: 50px;
 }
 
 .section-title h3 {
@@ -76,7 +77,6 @@ ul {
     font-size: 17px;
     text-decoration: none;
     font-family: 'Kaushan Script', cursive;
-    margin-right: 300px;
 
 }
 
