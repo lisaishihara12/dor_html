@@ -18,7 +18,7 @@ body {
 
 /*------------------------写真*/
 .photo_men {
-    background-image: url(../img/sakanetakafumi3.jpg);
+    background-image: url(../img/chefback2.png);
     background-repeat: no-repeat;
     /* 画像の繰り返しを指定  */
     background-position: center center;
@@ -105,7 +105,12 @@ body {
     margin: 10px auto 10px;
     margin-top: 30px;
     color: rgba(0, 0, 0, .55);
+    transition: all 1s;
+    cursor: pointer;
+}
 
+.icon_contact:hover {
+    transform: rotateY(360deg);
 }
 
 
@@ -147,6 +152,11 @@ body {
     position: absolute;
     top: 1970px;
     left: 650px;
+}
+
+.contact_form button:hover {
+    color: #C59D5F;
+    background-color: rgb(74, 63, 37);
 }
 
 /* footer */
@@ -258,10 +268,6 @@ input {
     color: #C59D5F;
 }
 
-.last-icon {
-    color: white;
-    font-size: 5px;
-}
 
 .footer-contact li {
     display: inline-block;
