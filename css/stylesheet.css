@@ -206,9 +206,18 @@ ul {
 }
 
 /* ----シェフ写真-----*/
+.chef-list {
+    text-align: center;
+}
+
+.chef-list img {
+    padding-right: 70px;
+}
+
 .chef-list span {
     font-family: 'Kaushan Script', cursive;
     font-size: 28px;
+    margin-right: 70px;
 }
 
 /* シェフ下*/
